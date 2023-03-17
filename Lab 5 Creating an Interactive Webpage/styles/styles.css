@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+header img{
+    width: 10%;
+}
+
+header h1{
+    margin-right: auto;
+
+}
+
+button {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border-width: 1px;
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(168, 173, 177);
+    margin-top: auto;
+}
+
+.homeButtonIndex {
+    background-color: rgb(26, 137, 241);
+    border-bottom: 0px;
+}
+
+.contactButtonContact {
+    background-color: rgb(26, 137, 241);
+    border-top: 0px;
+}
+
+
+
+.infomation, input, textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.infomation div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
+ }
